@@ -2,42 +2,24 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* MY CSS STARTS HERE */
+.card-container{
+  border:1px solid green;
+  border-width: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.character-img{
+  height:230px;
+  width: 230px;
 }
 
 img {
   height: 170px;
   width: 230px;
+}
+
+/* Nav bar css */
+.dark-mode{
+  color:#fff;
+  background-color: #313843;
 }
